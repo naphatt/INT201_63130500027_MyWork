@@ -23,3 +23,4 @@
    - A manual comparison of properties’ values.
 3. Shallow Equality
    - check the properties’ values for equality.
+   - 
