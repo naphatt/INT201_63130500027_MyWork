@@ -1,10 +1,9 @@
 function randomNum(){
     return Math.floor(Math.random() * 10) + 1;
 }
-let randomNumber=randomNum();
-
+ let randomNumber=randomNum();
 function guessNum(num) {
-
+    
     if(num>=1 && num<=10){
       if (num > randomNumber) console.log(`Too high : random number is ${randomNumber}`);
       else if (num < randomNumber) console.log(`Too Low : random number is ${randomNumber}`);

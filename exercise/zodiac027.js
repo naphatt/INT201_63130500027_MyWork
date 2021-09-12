@@ -1,3 +1,4 @@
+
 function zodiac(year) {
   const value = year % 12;
   console.log(value);
@@ -51,3 +52,4 @@ function zodiac(year) {
 
 let userYear = parseInt(prompt("ใส่ปีที่อยากรู้"))
 zodiac(userYear)
+

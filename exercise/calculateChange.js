@@ -1,3 +1,4 @@
+
 //สร้าง function ชื่อ calulateChange ที่รับค่า price , cash สำหรับการคำนวณเงินทอน
 
 function calculateChange (price, cash) {
@@ -39,3 +40,4 @@ function calculateChange (price, cash) {
 // console.log(calculateChange(1500, 2000));
 // console.log(calculateChange(3950, 4000));
 console.log(calculateChange(501, 1000));
+

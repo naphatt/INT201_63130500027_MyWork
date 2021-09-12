@@ -1,3 +1,4 @@
+
 function calculateChange(price,cash){
 
     const moneys = [{
@@ -48,6 +49,11 @@ function calculateChange(price,cash){
     }
     return returnChange;
 }
+
+console.log(calculateChange(501, 1000));
+console.log(calculateChange(3950, 4000));
+
+
 
 console.log(calculateChange(501, 1000));
 console.log(calculateChange(3950, 4000));
