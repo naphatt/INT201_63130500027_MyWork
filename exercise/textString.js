@@ -26,18 +26,18 @@ function replaceVowels(letter){
     }
 }
 
-function stringOps(text,choseMenu){
+function stringOps(text,chooseMenu){
     let resultString = '';
-    if (choseMenu === 1) {
+    if (chooseMenu === 1) {
         for (let i = text.length - 1; i >= 0; i--){
             resultString += text[i];
         }
 
-    } else if(choseMenu === 2){
+    } else if(chooseMenu === 2){
         for(let i = 0; i < text.length; i++){
             resultString += replaceVowels(text[i])
         }
-    } else if(choseMenu === 3){
+    } else if(chooseMenu === 3){
         resultString = 0;
         for (let i = 0; i < text.length; i++) {
             if (replaceVowels(text[i]) === '*') {
@@ -48,6 +48,6 @@ function stringOps(text,choseMenu){
     return resultString
 }
 console.log(displayMenu());
-let choseMenu = 3;
+let chooseMenu = 3;
 let text = 'Hello World';
-console.log(stringOps(text, choseMenu));
+console.log(stringOps(text, chooseMenu));
